@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Especialidades restaurante">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="src/img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Taste Restaurante</title>
+</head>
+<body class="imagenfondo-especialidades">
+
+    <header class="header">
+        <div class="contenido-logo">
+            <a href="index.html">
+                <img src="src/img/logomarca.webp" alt="logo-restaurante">  
+            </a> 
+            <div class="logo-texto">
+                <h1>Taste</h1>
+                <span>Food and Drinks</span>
+            </div>    
+        </div> 
+
+        <nav class="menu-principal navbar navbar-expand-lg d-flex justify-content-end overflow-hidden p-0">
+
+             <button type="button" class="navbar-toggler" data-bs-target="#menuCanvas" data-bs-toggle="offcanvas">  
+                    <img src="src/img/btn-menu.webp" class="logo-desplegable" alt="logo-desplegable">  
+             </button>
+
+            <div class="collapse navbar-collapse menu-header">
+                  <ul class="d-flex justify-content-between align-items-center m-0">
+                     <li class="navbar-item">
+                        <a href="index.html" class="nav-link">Restaurante</a>     
+                     </li>
+
+                     <li class="navbar-item">
+                        <a href="carta.html" class="nav-link">Carta</a>
+                     </li>
+                     <li class="navbar-item">
+                        <a href="especialidades.html" class="nav-link">Especialidades</a>
+                     </li>
+                     <li class="navbar-item">
+                        <a href="grupos.html" class="nav-link">Menu Grupos</a>
+                     </li>
+                     <li class="navbar-item">
+                        <a href="reservas.html" target="_blank" rel="noopener noreferrer" class="nav-link mr-0" >Reservas</a>
+                     </li>
+                  </ul>
+            </div>
+        </nav>
+
+        <div class="menu-desplegable offcanvas offcanvas-end w-50" id="menuCanvas">
+            <div class="offcanvas-header heading">
+                <h3>Taste</h3>
+                <button class="btn btn-close btn-close-white" data-bs-dismiss="offcanvas">  
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <nav class="nav d-flex flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <span>Restaurante</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carta.html">
+                            <span>Carta</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="especialidades.html">
+                            <span>Especialidades</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="grupos.html">
+                            <span>Menú para Grupos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservas.html" target="_blank" rel="noopener noreferrer">
+                            <span>Reservas</span>
+                        </a>
+                    </li>       
+                </nav>
+            </div>
+        </div>        
+    </header>
+
+    <section class="menu-especialidades"id="turn-up">
+        <div class="especialidades-titulo">
+            <div class="animacion-especial">
+                <h2>Especialidades <span>Caseras</span></h2>
+                <p>Prueba nuestros platos más deliciosos</p>
+                <img src="src/img/chefs1.webp" alt="imagen-chefs">
+            </div>
+        </div>
+    </section>  
+      
+    <div class="especialidades">
+        <div class="especialidades-contenido">
+            <h2 class="texto">Sabor Mediterraneo</h2>
+            <h3 class="descripcion">Disfruta de todo el sabor mediterráneo en nuestro restaurante con los mejores ingredientes sanos, deliciosos y variados.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur numquam, et mollitia ex tempore, repellendus nesciunt veniam cupiditate ea ratione eaque architecto inventore nostrum corporis minus vero? Suscipit, a officiis!</p>
+        </div> 
+    </div>
+    
+    <main class="container-xl contenedor-especialidades">
+        <div class="row m-4">
+            <div id="card-3" class="card especialidad m-auto mb-5 p-0 col-sm-12 col-md-6">
+                <div class="card-header m-0 p-0">
+                    <img class="img-fluid" src="src/img/tostasartesanas.webp" loading="lazy" alt="imagen-tostas">
+                </div>         
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <h3>Tostas artesanales</h3>
+                    <p>6,90€</p>
+                </div>     
+            </div><!-- Especialidad -->
+            <div id="card-1" class="card especialidad m-auto mb-5 p-0 col-sm-12 col-md-6">
+                <div class="card-header m-0 p-0">
+                    <img class="img-fluid" src="src/img/ensaldaSalmon.webp" loading="lazy" alt="imagen-ensalada">
+                </div>        
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <h3>Ensalada de salmón y frutos </h3>
+                    <p>13,90€</p>
+                </div>         
+            </div><!-- Especialidad -->
+            <div id="card-2" class="card especialidad m-auto mb-5 p-0 col-sm-12 col-md-6">
+                <div class="card-header m-0 p-0">
+                    <img class="img-fluid" src="src/img/ensladacabra.webp" loading="lazy" alt="imagen-ensaladas">
+                </div>       
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <h3>Ensalada queso de cabra </h3>
+                    <p>12,90€</p>
+                </div>       
+            </div><!-- Especialidad -->
+            <div id="card-4" class="card especialidad m-auto mb-5 p-0 col-sm-12 col-md-6">
+                <div class="card-header m-0 p-0">
+                    <img class="img-fluid" src="src/img/tablas.webp" loading="lazy" alt="imagen-quesos">
+                </div>          
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <h3>Tabla de quesos curados</h3>
+                    <p>15,90€</p>
+                </div>     
+            </div><!-- Especialidad -->
+            <div id="card-5" class="card especialidad m-auto mb-5 p-0 col-sm-12 col-md-6">
+                <div class="card-header m-0 p-0">
+                    <img class="img-fluid" src="src/img/surtidoPescado.webp" loading="lazy" alt="imagen-pescado">
+                </div>       
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <h3>Surtido de pescado</h3>
+                    <p>24,90€</p>
+                </div>    
+            </div><!-- Especialidad -->          
+            <div id="card-6" class="card especialidad m-auto mb-5 p-0 col-sm-12 col-md-6">
+                <div class="card-header m-0 p-0">
+                    <img class="img-fluid" src="src/img/polloGambas.webp" loading="lazy" alt="imagen-pollo">
+                </div>         
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <h3>Pollo con gambas y aguacate</h3>
+                    <p>10,90€</p>
+                </div>     
+            </div><!-- Especialidad -->
+            <div id="card-7" class="card especialidad m-auto mb-5 p-0 col-sm-12 col-md-6">
+                <div class="card-header m-0 p-0">
+                    <img class="img-fluid" src="src/img/Risoto con ternera.webp" loading="lazy" alt="imagen-risoto">
+                </div>     
+                <div class="card-body d-flex justify-content-between align-items-center">
+                    <h3>Risoto con ternera en salsa</h3>
+                    <p>12,90€</p>
+                </div>
+            </div> <!-- Especialidad -->
+            <div id="card-8" class="card especialidad m-auto mb-5 p-0 col-sm-12 col-md-6">
+                <div class="card-header m-0 p-0">
+                    <img class="img-fluid" src="src/img/Cordero.webp" loading="lazy" alt="imagen-cordero">
+                </div>        
+                <div class="card-body  d-flex justify-content-between align-items-center">
+                    <h3>Cordero asado especiado</h3>
+                    <p>18,90€</p>
+                </div>
+            </div><!-- Especialidad -->
+        </div>           
+    </main><!-- contenedor-especialidades -->    
+   
+    <section class="postres mb-5">
+     <h2 class="text-white text-center">Deliciosas Tartas</h2>
+     <div class="row">  
+        <div class="col-10 m-auto  col-md-8">
+            <div id="indicators" class="carousel slide" data-bs-ride="carousel">
+              
+                <div class="carousel-inner ">
+                    
+                    <div class="carousel-item active tarta tarta-queso">
+                        <img class="w-100 d-block img-fluid" src="src/img/tartaQueso2.webp" alt="slide-0">        
+                    </div>
+                    <div class="carousel-item tarta tarta-chocolate">
+                        <img class="w-100 d-block img-fluid" src="src/img/tartaChocolate.webp" alt="slide-1">
+                    </div>
+                    <div class="carousel-item tarta tarta-caramelo">
+                        <img class="w-100 d-block img-fluid" src="src/img/tartaCaramelo.webp" alt="slide-2">
+                    </div>
+                    <div class="carousel-item tarta tarta-arandanos">
+                        <img class="w-100 d-block img-fluid" src="src/img/tartaArandanos.webp" alt="slide-3">
+                    </div>
+                    <div class="carousel-item tarta tarta-fresas">
+                        <img class="w-100 d-block img-fluid" src="src/img/tartaFresas.webp" alt="slide-4">
+                    </div>
+    
+                    <button type="button" class="carousel-control-prev justify-content-start w-auto" data-bs-target="#indicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-prev-icon visually-hidden">Preview</span>
+                    </button>
+                    <button type="button" class="carousel-control-next justify-content-end w-auto" data-bs-target="#indicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="carousel-control-next-icon visually-hidden">Next</span>
+                    </button>
+                </div>  
+            </div> 
+        </div>
+    </section><!-- Postres -->
+   
+    <div class="icono-turn">
+        <a href="#turn-up"> 
+           <img src="src/img/u-turn.webp" alt="icono turn-up">
+        </a>
+    </div>
+
+    <footer class="footer">
+        <div class="menus-footer d-flex flex-column align-items-center">
+              
+              <div class="d-flex flex-column align-items-center "> 
+                  <p class="text-white mb-4 fw-bold">Visita nuestras redes sociales:</p>
+                  <ul class="nav menu-redes d-flex">
+                      <li class="nav-item me-5">
+                          <a href="https://www.whatsapp.com/?lang=es" target="_blank" rel="noopener noreferrer">
+                              <span>whatsApp</span>
+                             <img src="src/img/Whatsapp-Icon_33936.webp" alt="imagen-whatsup">
+                          </a>
+                      </li>       
+                      <li class="nav-item me-5">
+                          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                              <span>Youtube</span>
+                              <img src="src/img/Youtube_icon-icons.com_66802.webp" alt="imagen-youtube">
+                          </a>
+                      </li>       
+                      <li class="nav-item me-5">
+                          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                              <span>Facebook</span>
+                              <img src="src/img/social_facebook_button_blue_256_30648.webp" alt="imagen-facebook">
+                          </a>
+                      </li>       
+                      <li class="nav-item me-5">
+                          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                              <span>Twitter</span>
+                              <img src="src/img/Twitter-Icon_34073.webp" alt="imagen-twitter">
+                          </a>
+                      </li>       
+                      <li class="nav-item">
+                          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                              <span>Instagram</span>
+                              <img src="src/img/Instagram_icon-icons.com_66804.webp" alt="imagen-instagram">
+                          </a>
+                      </li>              
+                  </ul>
+              </div> <!--  Menu redes -->    
+              
+              <div>
+                  <ul class="menu-politicas nav d-flex align-items-center">
+                      <li class="nav-item me-md-5">
+                          <a class="nav-link fw-bold" href="politica.html">Política de Privacidad</a>
+                      </li>
+                      <li class="nav-item  me-md-5">
+                          <a class="nav-link fw-bold" href="aviso.html">Aviso Legal</a>
+                      </li>
+                      <li class="nav-item ">
+                          <a class="nav-link fw-bold" href="cookies.html">Política de Cookies</a>
+                      </li>
+                  </ul>      
+              </div><!-- menu politicas -->
+        </div>
+      </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/animaciones.js"></script>
+    
+</body>
+</html>
